@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <body style="background-color: rgb(76, 36, 169); color: white;">
+        <center><h1>Application Form</center></h1>
+    <form action="submit.html" method="get" autocomplete="off">
+    <center><table>
+       
+        <tr>
+            <td><label for="name">First Name:</label>
+            <input type="text" name="firstname" id="name" autofocus></td> 
+             <td><label for="lname">Last Name:</label>
+            <input type="text" name="lastname" id="lname" autofocus></td>
+            
+        </tr>
+        <tr>
+          <td><label for="dob">Date of Birth:</lable>
+            <input type="date" name="dob" id="dob" autofocus></td> 
+             <td><lable for="age">Age:</lable>
+            <input type="number" name="age" id="age" autofocus></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</lable>
+            <input type="radio" name="gender" id="dob" value="male"autofocus>Male
+             <input type="radio" name="gender" id="dob" value="female" autofocus>Female
+        </td> 
+             <td><lable for="email">Email Adress:</lable>
+            <input type="email" name="email" id="email" placeholder="Enter Email Adress" autofocus></td>
+        </tr>
+        <tr>
+           <td><label for="position">Positions Available:</lable>
+            <input type="radio" name="position" id="position" value="jdeveloper"autofocus>Junior Developer
+              <input type="radio" name="position" id="position" value="mdeveloper"autofocus>Mid Developer
+             <input type="radio" name="position" id="position" value="sdeveloper"autofocus>Senior Developer
+            
+        </tr>
+        <tr>
+            <td><label for="lang">Programming Languages:</lable>
+            <input type="checkbox" name="lang" id="lang" value="java"autofocus>Java
+              <input type="checkbox" name="lang" id="lang" value="Pythonr"autofocus>Python
+             <input type="checkbox" name="lang" id="lang" value="Java Script"autofocus>Java Script
+        </tr>
+        <tr>
+              <td><lable for="password">Password:</lable>
+            <input type="password" name="password" id="password" autofocus></td>
+             <td><lable for="conpassword">Confirm Password:</lable>
+            <input type="password" name="conpassword" id="conpassword" autofocus></td>
+
+        </tr>
+    </table></center>
+    </form><br>
+    <center><input style="background-color: red;" type="submit" name="submit" id="submit" >submit</td>
+    <input style="background-color: red;" type="reset" name="reset" id="reset" ></td></center>
+</head>
+    
+</body>
+</html>
