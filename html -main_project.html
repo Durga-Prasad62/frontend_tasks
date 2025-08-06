@@ -80,11 +80,11 @@
     </ul><hr>
 
    <center><h2 id="contact">Contact Me</h2>
-    <form action="submit.html">
+    <form action="submit.html" autocomplete="off">
     <label for="name">Name: <span style="color: red;"><sup>*</sup></span></label>
     <input type="text" id="name" name="name" required autofocus><br>
     <label for="email">Email: <span style="color: red;"><sup>*</sup></span></label>
-    <input type="text" id="email" name="email" pattern="^[a-z0-9]+@(gmail,outlook,yahoo,info)\.(.com,.in.org)$" required autofocus><br>
+    <input type="text" id="email" name="email" pattern="^[a-z\d.]+@(gmail|outlook|yahoo|info)\.(com|in|org)$" required autofocus><br>
      <label for="gender">Gender: <span style="color: red;"><sup>*</sup></span></label>
     <input type="radio" id="male" name="gender" value="male" required autofocus> male <input type="radio" id="female" name="gender" value="female" required autofocus> female <br>
     <label for="phno" >Ph Number: <span style="color: red;"><sup>*</sup></span></label>
@@ -114,3 +114,4 @@
 <center>&copy; Rights Reserved to Prasad</center>
 </body>
 </html>
+
